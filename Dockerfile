@@ -1,7 +1,7 @@
 # small is beautiful
 FROM alpine:latest
 
-MAINTAINER Anthony Hogg anthony@hogg.fr
+MAINTAINER Ejlp ejlp12@gmail.com 
 
 # The container listens on port 80, map as needed
 EXPOSE 80

@@ -19,9 +19,6 @@ http {
         access_log /var/log/nginx/access.log;
 	error_log /var/log/nginx/error.log;
 
-        auth_basic            "GIT Restricted";
-        auth_basic_user_file  /git/.htpasswd;
-
         location / {
             # Set chunks to unlimited, as the bodies can be huge
             client_max_body_size            0;
