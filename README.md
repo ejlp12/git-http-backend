@@ -34,4 +34,5 @@ fetch http://dl-cdn.alpinelinux.org/alpine/v3.4/main/x86_64/APKINDEX.tar.gz
 ERROR: http://dl-cdn.alpinelinux.org/alpine/v3.4/main: temporary error (try again later)
 ```
 
-No fix for this problem yet. https://github.com/gliderlabs/docker-alpine/issues/279#issuecomment-300859312
+No fix for this problem yet. 
+Others reported this problem here: https://github.com/gliderlabs/docker-alpine/issues/279#issuecomment-300859312
